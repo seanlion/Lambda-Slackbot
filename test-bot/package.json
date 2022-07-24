@@ -1,0 +1,19 @@
+{
+  "name": "near_node_monitoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "near-api-js": "^0.45.1"
+  },
+  "devDependencies": {
+    "serverless-latest-layer-version": "^2.1.1"
+  }
+}

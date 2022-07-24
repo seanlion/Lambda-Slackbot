@@ -1,0 +1,11 @@
+# package directories
+test-bot/node_modules
+bot-util/util-layer/node_modules
+jspm_packages
+
+# Serverless directories
+test-bot/.serverless
+bot-util/.serverless
+test-bot/env.json
+
+test.js
