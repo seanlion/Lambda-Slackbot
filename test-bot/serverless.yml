@@ -15,6 +15,8 @@ provider:
     WEBHOOK_URL : ${self:custom.env.WEBHOOK_URL}
     NODE_PATH: "./:/opt/node_modules"
     ACCOUNT: ${self:custom.env.ACCOUNT}
+    GENESIS_HEIGHT : ${self:custom.env.GENESIS_HEIGHT}
+    GENESIS_TIME : ${self:custom.env.GENESIS_TIME}
 package:
   patterns:
     - '!node_modules/**'
